@@ -13,7 +13,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_BACKEND_URL=https://young-springs-95076.herokuapp.com NODE_ENV=production react-scripts build",
+    "start:with-real-server": "REACT_APP_BACKEND_URL=https://true-smarties-10507.herokuapp.com npm start",
+    "build": "REACT_APP_BACKEND_URL=https://true-smarties-10507.herokuapp.com NODE_ENV=production react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
